@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>PROJETO DE EXTENSÃO</h1>
+    </header>
+    <div class="titulo-formulario">
+        <h2>Caixa de sugestões online!</h2>
+    </div>
+    <form action="processa_formulario.php" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite..." required><br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="Opcional..."><br><br>
+
+        <label for="mensagem">Deixe a sua sugestão:</label><br>
+        <textarea id="mensagem" name="mensagem" placeholder="Mensagem..."                           required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <footer>Projeto feito por Joatan Souza Ramos Lopes</footer>
+</body>
+
+</html>

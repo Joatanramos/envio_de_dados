@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/* Centraliza todo o conteúdo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('fundo.jpg'); /* Adicione sua imagem aqui */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+/* Estilo do Cabeçalho */
+.cabecalho {
+    background-color: #0044cc; /* Azul */
+    color: #ffffff; /* Branco */
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px; /* Largura igual ao formulário */
+    border-radius: 8px 8px 0 0; /* Bordas arredondadas superiores */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cabecalho h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Estilo do Título do Formulário */
+.titulo-formulario {
+    width: 100%;
+    max-width: 400px; /* Largura igual ao formulário */
+}
+
+.titulo-formulario h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Estilo do Formulário */
+form {
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+    padding: 20px;
+    border-radius: 0 0 8px 8px; /* Bordas arredondadas inferiores */
+    box-shadow: 5px 5px 15px black;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Estilos dos Campos */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none; /* Impede o redimensionamento */
+    height: 120px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #0044cc;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #032a79;
+}
+
+footer {
+    color: #022977; /* Branco */
+    padding: 15px;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    max-width: 400px; /* Largura igual ao formulário */
+    border-radius: 8px 8px 0 0; /* Bordas arredondadas superiores */
+    box-shadow: 5px 5px 15px black;
+}
+
